@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="TarnFS logo">
+  <title>TarnFS</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B2F45"/>
+      <stop offset="1" stop-color="#0E6E78"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#sky)"/>
+  <!-- far peak -->
+  <path d="M58 70 L80 38 L104 70 Z" fill="#7FCFC6"/>
+  <!-- near peak with snow line -->
+  <path d="M22 70 L50 30 L78 70 Z" fill="#CFEAE5"/>
+  <path d="M50 30 L59.8 44 L54 41 L49 46 L44 41 L40.2 44 Z" fill="#FFFFFF"/>
+  <!-- shoreline -->
+  <rect x="18" y="73" width="92" height="3" rx="1.5" fill="#E8F6F3" opacity="0.9"/>
+  <!-- reflection: the lake, drawn as content-addressed chunks -->
+  <g fill="#5FC9BF">
+    <rect x="24" y="82" width="22" height="6" rx="3"/>
+    <rect x="50" y="82" width="30" height="6" rx="3"/>
+    <rect x="84" y="82" width="20" height="6" rx="3"/>
+    <rect x="34" y="93" width="14" height="6" rx="3" opacity="0.75"/>
+    <rect x="52" y="93" width="26" height="6" rx="3" opacity="0.75"/>
+    <rect x="82" y="93" width="12" height="6" rx="3" opacity="0.75"/>
+    <rect x="46" y="104" width="16" height="6" rx="3" opacity="0.5"/>
+    <rect x="66" y="104" width="16" height="6" rx="3" opacity="0.5"/>
+  </g>
+</svg>
